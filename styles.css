@@ -1,0 +1,36 @@
+@import url('https://fonts.google.com/specimen/Josefin+Sans');
+
+body {
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    background: url('/images/bg-desktop-dark.jpg') no-repeat ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 300px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading > h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.new-todo {
+    height: 30px;
+    width: 100%;
+    background-color:hsl(235, 24%, 19%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

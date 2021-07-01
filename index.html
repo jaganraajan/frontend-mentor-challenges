@@ -13,20 +13,32 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="container">
+    <div class="heading">
+      <h1>Todo</h1>
+      <img src="images/icon-sun.svg" alt="sun">
+    </div>
+    <div class="new-todo">
+      <div class="circle"></div>
+      <input type="text" placeholder="Create a new todo..."> </input>
+    </div>
+    <div class="todos">
 
-  Todo
-
-  <!-- Add dynamic number --> items left
-
-  All
-  Active 
-  Completed
-
-  Clear Completed
-
-  Drag and drop to reorder list
+    </div>
+    <div class="details">
+      <p class="items-left">6 item(s) left</p>
+      <div class="filter">
+        <button>All</button>
+        <button>Active</button>
+        <button>Completed</button>
+      </div>
+      <button class="clear">Clear Completed</button>
+    </div>
+    <h3 id="note">Drag and drop to reorder list</h3>
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
